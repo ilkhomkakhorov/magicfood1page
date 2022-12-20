@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins;
+  background-color: rgb(255, 243, 235);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(./font/popins/Poppins-Regular.ttf);
+}
+/* Header Section */
+.header__container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 20px 0;
+}
+
+.header__left {
+  width: 50%;
+  display: flex;
+}
+.header__left-img {
+  width: 300px;
+  transform: scale(0.7);
+  margin-left: -45px;
+}
+.header__right {
+  width: 50%;
+  margin: auto;
+  display: flex;
+}
+.header__right-h3:hover a {
+  color: rgb(230, 126, 35);
+}
+
+.header__right-h3 a {
+  color: black;
+  text-decoration: none;
+  margin: 20px 0 0 40px;
+}
+.header__right-btn {
+  width: 20%;
+  height: 40px;
+  margin-left: 30px;
+  font-size: 18.72px;
+  color: white;
+  background-color: rgb(230, 126, 35);
+  border: none;
+  border-radius: 10px;
+  margin-top: -5px;
+  font-weight: bold;
+}
+.header__right-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+/* /Header Section */
+
+/* Meal Section  */
+
+.meal__sections {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.meal__section-left {
+  width: 50%;
+}
+.meal__section-left--h1 {
+  font-family: sans-serif;
+  font-size: 55px;
+  color: #333;
+}
+
+.meal__section-right {
+  width: 48%;
+  margin-left: 50px;
+}
+.meal__section-right--img {
+  width: 100%;
+}
+.meal__section-left-p {
+  margin-top: 40px;
+  color: rgba(85, 85, 85);
+  font-size: 18.72px;
+  font-weight: bold;
+}
+.meal__section-left--btn {
+  margin-top: 30px;
+}
+.meal__section-left--button_left {
+  width: 37%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18.72px;
+  color: white;
+  background-color: rgb(230, 126, 35);
+  font-weight: bold;
+}
+.meal__section-left--button_left:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.meal__section-left--button_right {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18.72px;
+  color: rgba(85, 85, 85);
+  background-color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.meal__section-left--button_right:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+  .meal_section-left--people {
+    margin-top: 80px;
+    display: flex;
+  }
+  .img__1 {
+    width: 8%;
+    border-radius: 50%;
+    border: 4px solid white;
+  }
+  .img1 {
+    width: 8%;
+    border-radius: 50%;
+    margin-left: -20px;
+    border: 4px solid white;
+  }
+  .meal_section-left---h3 {
+    font-weight: bold;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  
+  .ilxom {
+    margin-top: 10px;
+    color: rgb(85, 85, 85);
+    font-weight: bold;
+    margin-left: 15px;
+  }
+  .span {
+    color: rgb(230, 126, 35);
+  }
+/* /Mail Section */
